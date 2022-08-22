@@ -1,0 +1,137 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1{
+  margin:50px auto 33px;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.6875rem;
+  color: #5b3688;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #5b3688;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+.top-container{
+background-color: #e7fafb;
+padding-top: 100px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom: 609px;
+  left: 357px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 195px;
+  top: 79px;
+}
+
+.middle-container{
+  padding-bottom: 100px;
+  padding-top: 55px;
+}
+
+.profile-img{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border: 4px solid #ce85bc;
+}
+.intro{
+  width: 50%;
+  margin:auto;
+}
+p{
+  line-height: 2;
+
+}
+hr{
+  border-style: none;
+  border-top-style:dotted;
+  border-width:5px;
+  width:5%;
+  margin:100px auto;
+}
+
+
+
+.skill-row{
+
+  width: 50%;
+  margin:150px auto;
+  text-align: left;
+
+}
+.image-1{
+  width:196px;
+  height:192px;
+  border-radius: 10px;
+  float: left;
+  margin-right : 80px;
+
+}
+.image-2{
+  width:191px;
+  height:180px;
+  border-radius: 10px;
+  float:right;
+  margin-left: 80px;
+
+}
+.image-3{
+  width:192px;
+  height:192px;
+  border-radius: 10px;
+  float: left;
+  margin-right : 80px;
+
+}
+
+.contact-para{
+  width: 50%;
+  margin:80px auto;
+}
+
+
+.buttonClass {
+  font-size:14px;
+  font-family:Arial;
+  /* width:129px;
+  height:46px; */
+  padding: 13px 32px;
+  border-width:0px;
+  color:#ffffff;
+  border-color:#ee1eb5;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  text-decoration: none;
+  background:linear-gradient(rgba(243, 176, 211, 1), rgba(221, 91, 158, 1));
+}
+
+.buttonClass:hover {
+  background: linear-gradient(rgba(221, 91, 158, 1), rgba(243, 176, 211, 1));
+}
+
+
+.lower-part{
+  background-color: #9ce5df;
+  padding: 50px 0 20px;
+}
+.footer-link{
+text-decoration: none;
+margin-right: 30px;
+color: #fd7ddb;
